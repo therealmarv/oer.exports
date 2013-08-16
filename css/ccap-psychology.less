@@ -1,0 +1,114 @@
+/*******************************************************
+* Copyright (c) 2013 Rice University
+*  This software is subject to the provisions of the GNU AFFERO GENERAL PUBLIC LICENSE Version 3.0 (AGPL).
+*  See LICENSE.txt for details.
+*******************************************************/
+
+// Import general page headers/footers, bookmark calculation, etc
+@import url('ccap-base.less');
+@import url('ccap-numbering.less');
+
+// color palette for psychology
+@orange:        #EEAD58;
+@light-blue:    #007196;
+@dark-blue:     #25408F;
+@teal:          #3F989B;
+@red:           #B8292F;
+@shadow:        #888888;
+
+@white:         #FFF;
+@black:         #000;
+
+// Should these be moved to ccap-base.less?
+@page { margin: 1in 1in; }
+
+/*
+ * Font styles, a mixture of serif and sans-serif
+ */
+@font-family-sans-serif: sans-serif, @stix-fonts;
+@font-family-serif: serif, @stix-fonts;
+
+.section > p { font-family: @font-family-serif; }
+
+/******************************************************
+ * Custom psychology elements
+ *
+ * Most of the customizations are
+ * `.note` elements with specific classes to create
+ * the different styles of Feature elements:
+ *
+ * Everyday Connection, Dig Deeper, Link to Learning,
+ * Connect the Concepts
+ *
+ ******************************************************/
+.x-feature-before-color(@title-color, @title) {
+  text-transform: uppercase;
+  color: @title-color;
+  content: @title;
+}
+.x-feature-color(@border-color, @title-border-color, @title-color, @background-color, @title) {
+  box-shadow: 10px 10px 5px @shadow; // On the roadmap for PrinceXML 9.1
+  border: 1px solid @border-color;
+  border-radius: 15px;
+  
+  margin-top: 25px; // Clear the title ::before.
+  &::before {
+    .x-feature-before-color(@title-color, @title);
+    background-color: @background-color;
+    border: 1px solid @title-border-color;
+    border-radius: 10px;
+    width: 60%;
+
+    // Reposition the titles
+    position: absolute;
+    margin-top: -35px;
+    padding: 5px;
+  }
+}
+.note {
+  &.psychology {
+    font-family: @font-family-sans-serif;
+    page-break-inside: avoid;
+    padding: 15px;
+
+    &.everyday-connection {
+      .x-feature-color(@dark-blue, @dark-blue, @dark-blue, @orange, "everyday connection");
+    }
+    &.dig-deeper {
+      .x-feature-color(@dark-blue, @orange, @orange, @dark-blue, "dig deeper");
+    }
+    &.what-do-you-think {
+      .x-feature-color(@dark-blue, @dark-blue, @white, @teal, "what do you think?");
+    }
+    &.connect-the-concepts {
+      .x-feature-color(@light-blue, transparent, @light-blue, transparent, "connect the concepts");
+      padding: 0px;
+
+      &::before, > .title::before {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+      }
+      &::before {
+        border-bottom: 1px solid @light-blue;
+        border-radius: 0px;
+        padding: 0px;
+        margin-top: 5px;
+        position: relative;
+      }
+      > .title::before {
+        .x-feature-before-color(@light-blue, "connect the concepts");
+        //transform: scaleY(-1); I'll figure out why these two strings are different sizes then re-enable this.
+      }
+    }
+    &.link-to-learning {
+      .x-feature-color(@red, @orange, @white, @red, "link to learning");
+    }
+  }
+}
+
+.section .flow-left {
+  float: right;
+  margin: 1em 0 1em 1em;
+  width: 200px;
+}

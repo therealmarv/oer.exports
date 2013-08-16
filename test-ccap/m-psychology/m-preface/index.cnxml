@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:m="http://www.w3.org/1998/Math/MathML" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+  <title>8.0 Introduction to Psychology</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+    <md:repository>http://bread.cnx.rice.edu:9680/content</md:repository>
+    <md:content-url>http://bread.cnx.rice.edu:9680/content/m10021/latest/</md:content-url>
+    <md:content-id>m10021</md:content-id>
+    <md:title>Simple Preface Module</md:title>
+    <md:version>1.5</md:version>
+    <md:created>2011/11/22 17:22:09 US/Central</md:created>
+    <md:revised>2011/12/19 16:04:00.978 US/Central</md:revised>
+    <md:actors>
+      <md:person userid="words">
+        <md:firstname>Words</md:firstname>
+        <md:surname>Numbers</md:surname>
+        <md:fullname>Words Numbers</md:fullname>
+        <md:email>email@example.com</md:email>
+      </md:person>
+    </md:actors>
+    <md:roles>
+      <md:role type="author">words</md:role>
+      <md:role type="maintainer">words</md:role>
+      <md:role type="licensor">words</md:role>
+    </md:roles>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/"/>
+    <md:subjectlist>
+      <md:subject>Mathematics and Statistics</md:subject>
+      <md:subject>Science and Technology</md:subject>
+    </md:subjectlist>
+    <md:abstract/>
+    <md:language>en</md:language>
+  </metadata>
+
+<content>
+    <para id="import-auto-id6057858">
+Welcome to <emphasis effect="italics">PSYCHOLOGY</emphasis>, an OpenStax College resource. This textbook has been created with several goals i mind: accessibility, customization, and student engagement while encouraging science students toward high levels of academic scholarship. Instructors and students alike will find that this textbook offers a strong foundation in Psychology in an accessible format.
+    </para>
+    <section id="import-auto-id1164185993559">
+      <title>About OpenStax College's Resources</title>
+      <para id="import-auto-id1164193596448">OpenStax College is a non-profit organization committed to improving student access to quality learning materials. Our free textbooks are developed and peer-reviewed by educators to ensure they are readable, accurate, and meet the scope and sequence requirements of today’s college courses. Unlike traditional textbooks, OpenStax College resources live online and are owned by the community of educators using them. Through our partnerships with companies and foundations committed to reducing costs for students, OpenStax College is working to improve access to higher education for all. OpenStax College is an initiative of Rice University and is made possible through the generous support of several philanthropic foundations.</para>
+    </section>
+    <section id="import-auto-id1164197039345">
+      <title>About OpenStax College’s Resources</title>
+      <para id="import-auto-id1164209220582">OpenStax College resources provide quality academic instruction. Three key features set our materials apart from others: they can be customized by instructors for each class, they are a “living” resource that grows online through contributions from science educators, and they are available free or for minimal cost.</para>
+      <section id="import-auto-id1164219050458">
+        <title>Customization</title>
+        <para id="import-auto-id1164197725192">OpenStax College learning resources are designed to be customized for each course. Our textbooks provide a solid foundation on which instructors can build, and our resources are conceived and written with flexibility in mind. Instructors can select the sections most relevant to their curricula and create a textbook that speaks directly to the needs of their classes and student body. Teachers are encouraged to expand on existing examples by adding unique context via geographically localized applications and topical connections. </para>
+        <para id="import-auto-id1164190097117"><emphasis effect="italics">Psychology</emphasis> can be easily customized using our online platform. Simply select the content most relevant to your current semester and create a textbook that speaks directly to the needs of your class. <emphasis effect="italics">Psychology</emphasis> is organized as a collection of sections that can be rearranged, modified, and enhanced through localized examples or to incorporate a specific theme of your course. This customization feature will help bring biology to life for your students and will ensure that your textbook truly reflects the goals of your course.</para>
+      </section>
+      <section id="import-auto-id8599726">
+        <title>Curation</title>
+        <para id="import-auto-id1164191106500">To broaden access and encourage community curation, <emphasis effect="italics">Psychology</emphasis> is “open source” licensed under a Creative Commons Attribution (CC-BY) license. The scientific community is invited to submit examples, emerging research, and other feedback to enhance and strengthen the material and keep it current and relevant for today’s students. Submit your suggestions to info@openstaxcollege.org, and check in on edition status, alternate versions, errata, and news on the StaxDash at http://openstaxcollege.org. </para>
+      </section>
+      <section id="import-auto-id1164213976563">
+        <title>Cost</title>
+        <para id="import-auto-id1164202603625">Our textbooks are available for free online, and in low-cost print and e-book editions. </para>
+      </section>
+    </section>
+    <section id="import-auto-id1164193446666">
+    <title>About Psychology</title>
+    <para id="import-auto-id1164231453381"><emphasis effect="italics">Psychology</emphasis> is designed for multi-semester Psychology courses for science majors. It is grounded on an evolutionary basis and includes exciting features that highlight careers in the biological sciences and everyday applications of the concepts at hand. To meet the needs of today?s instructors and students, some content has been strategically condensed while maintaining the overall scope and coverage of traditional texts for this course. Instructors can customize the book, adapting it to the approach that works best in their classroom. <emphasis effect="italics">Psychology</emphasis> also includes an innovative art program that incorporates critical thinking and clicker questions to help students understand and apply key concepts.</para>
+    </section>
+  </content>
+</document>

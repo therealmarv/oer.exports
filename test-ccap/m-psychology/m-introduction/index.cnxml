@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:m="http://www.w3.org/1998/Math/MathML" id="imported-from-openoffice" module-id="imported-from-openoffice" cnxml-version="0.7" class="introduction">
+  <title>4.0 Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+    <md:repository>http://bread.cnx.rice.edu:9680/content</md:repository>
+    <md:content-url>http://bread.cnx.rice.edu:9680/content/m10021/latest/</md:content-url>
+    <md:content-id>m10021</md:content-id>
+    <md:title>4.0 Introduction</md:title>
+    <md:version>1.5</md:version>
+    <md:created>2011/11/22 17:22:09 US/Central</md:created>
+    <md:revised>2011/12/19 16:04:00.978 US/Central</md:revised>
+    <md:actors>
+      <md:person userid="words">
+        <md:firstname>Words</md:firstname>
+        <md:surname>Numbers</md:surname>
+        <md:fullname>Words Numbers</md:fullname>
+        <md:email>email@example.com</md:email>
+      </md:person>
+    </md:actors>
+    <md:roles>
+      <md:role type="author">words</md:role>
+      <md:role type="maintainer">words</md:role>
+      <md:role type="licensor">words</md:role>
+    </md:roles>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/"/>
+    <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+    <md:subjectlist>
+      <md:subject>Psychology</md:subject>
+      <md:subject>Science and Technology</md:subject>
+    </md:subjectlist>
+    <md:abstract/>
+    <md:language>en</md:language>
+    <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+  </metadata>
+  <content> 
+    <figure id="import-auto-id1758685" class="splash">
+      <media id="import-auto-id2011827" alt="Understanding Social Psychology is very important.">
+        <image mime-type="image/jpeg" src="Figure_04_00_00.jpg" width="450"/>
+      </media>
+      <caption>Understanding Social Psychology is very important.</caption>
+    </figure>
+
+    <section>
+      <title>Introduction</title>
+      <para>Why study social psychology? Like terrestrial biomes, aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Even if the water in a pond or other body of water is perfectly clear (there are no suspended particles), water, on its own, absorbs light. As one descends into a deep body of water, there will eventually be a depth which the sunlight cannot reach. While there are some abiotic and biotic factors in a terrestrial ecosystem that might obscure light (like fog, dust, or insect swarms), usually these are not permanent features of the environment. The importance of light in aquatic biomes is central to the communities of organisms found in both freshwater and marine ecosystems.</para>
+      <para>In freshwater systems, stratification due to differences in density is perhaps the most critical abiotic factor and is related to the energy aspects of light. The thermal properties of water (rates of heating and cooling) are significant to the function of marine systems and have major impacts on global climate and weather patterns. Figure 8.1 shows the thermal properties of water (rates of heating and cooling) are significant to the function of marine systems and have major impacts on global climate and weather patterns.</para>
+    </section>
+  </content>
+</document>
