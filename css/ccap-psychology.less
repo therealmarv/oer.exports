@@ -29,6 +29,12 @@
 @font-family-serif: serif, @stix-fonts;
 
 .section > p { font-family: @font-family-serif; }
+.section h3,.section h4 { // Nested section title styles
+  font: 700 normal normal 10pt @font-family-sans-serif;
+}
+.section h3 {
+  text-transform: uppercase;
+}
 
 /******************************************************
  * Custom psychology elements
@@ -111,4 +117,9 @@
   float: right;
   margin: 1em 0 1em 1em;
   width: 200px;
+}
+
+.section .flow-left-incorrect-example {
+  float: right;
+  margin: 1em 0 1em 1em;
 }

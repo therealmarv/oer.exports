@@ -1425,6 +1425,13 @@ div.book > div.appendix > div.titlepage > div > div:not(:first-child) {
 .section > p {
   font-family: serif, STIXGeneral, STIXSizeOneSym, STIXSize1;
 }
+.section h3,
+.section h4 {
+  font: 700 normal normal 10pt sans-serif, STIXGeneral, STIXSizeOneSym, STIXSize1;
+}
+.section h3 {
+  text-transform: uppercase;
+}
 /******************************************************
  * Custom psychology elements
  *
@@ -1554,4 +1561,8 @@ div.book > div.appendix > div.titlepage > div > div:not(:first-child) {
   float: right;
   margin: 1em 0 1em 1em;
   width: 200px;
+}
+.section .flow-left-incorrect-example {
+  float: right;
+  margin: 1em 0 1em 1em;
 }

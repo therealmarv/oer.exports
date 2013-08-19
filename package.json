@@ -1,0 +1,10 @@
+{
+  "name":"oer.exports",
+  "version":"0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "assemble": "*",
+    "assemble-less": "*",
+    "grunt-shell": "*"
+  }
+}
