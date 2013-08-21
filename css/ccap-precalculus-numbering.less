@@ -22,6 +22,7 @@
 @appendix: "Appendix";
 @example: "Example ";
 @exercise: "Exercise ";
+@equation: "Equation ";
 
 div.book {
 
@@ -41,7 +42,7 @@ div.book {
      *  CUSTOMIZED: added reset for try-it;
      * --------------------------------------
      */
-    counter-reset: section figure subfigure table equation example exercise footnote toc-section try;
+    counter-reset: section figure subfigure table equation example exercise footnote toc-section try equation-inlineequation;
 
     // Unchanged from ccap-numbering.less
     .x-increment(@counter-name) {
