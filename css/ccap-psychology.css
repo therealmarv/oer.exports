@@ -1538,6 +1538,7 @@ div.book > div.appendix > div.titlepage > div > div:not(:first-child) {
   text-transform: uppercase;
   color: #007196;
   content: "connect the concepts";
+  transform: scaleY(-1);
 }
 .note.psychology.link-to-learning {
   box-shadow: 10px 10px 5px #888888;
@@ -1557,6 +1558,16 @@ div.book > div.appendix > div.titlepage > div > div:not(:first-child) {
   margin-top: -35px;
   padding: 5px;
 }
+/* Make sections easier to identify in this example document */
+.section {
+  page-break-inside: avoid;
+}
+/* Float/clearfix method test */
+.section > p.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .section .flow-left {
   float: right;
   margin: 1em 0 1em 1em;
@@ -1565,4 +1576,39 @@ div.book > div.appendix > div.titlepage > div > div:not(:first-child) {
 .section .flow-left-incorrect-example {
   float: right;
   margin: 1em 0 1em 1em;
+}
+/* table-row/table-cell tests */
+.section.has-figures {
+  display: table;
+}
+.section.has-figures > .is-a-row {
+  display: table-row;
+}
+.section.has-figures > .is-a-row > .figure,
+.section.has-figures > .is-a-row p {
+  display: table-cell;
+  vertical-align: top;
+  padding-top: 10px;
+}
+.section.has-figures > .is-a-row > .figure {
+  width: 200px;
+  padding-left: 10px;
+}
+/* rut-in/block tests */
+.section.has-figures {
+  display: block;
+}
+.section.has-figures p {
+  display: run-in;
+}
+.section.has-figures > .figure {
+  display: block;
+  width: 200px;
+}
+.caption-on-bottom caption {
+  caption-side: bottom;
+}
+.section .table {
+  display: inline-block;
+  padding: 20px;
 }

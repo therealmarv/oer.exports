@@ -104,12 +104,25 @@
       }
       > .title::before {
         .x-feature-before-color(@light-blue, "connect the concepts");
-        //transform: scaleY(-1); I'll figure out why these two strings are different sizes then re-enable this.
-      }
+        transform: scaleY(-1);      }
     }
     &.link-to-learning {
       .x-feature-color(@red, @orange, @white, @red, "link to learning");
     }
+  }
+}
+
+/* Make sections easier to identify in this example document */
+.section { 
+  page-break-inside: avoid;
+}
+
+/* Float/clearfix method test */
+.section > p.clearfix {  
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 
@@ -122,4 +135,46 @@
 .section .flow-left-incorrect-example {
   float: right;
   margin: 1em 0 1em 1em;
+}
+
+/* table-row/table-cell tests */
+.section.has-figures {
+  display: table;
+
+  & > .is-a-row {
+    display: table-row;
+
+    & > .figure, & p {
+      display: table-cell;
+      vertical-align: top;
+      padding-top: 10px;
+    }
+
+    & > .figure {
+      width: 200px;
+      padding-left: 10px;
+    }
+  }
+}
+
+/* rut-in/block tests */
+.section.has-figures {
+  display: block;
+
+  & p {
+    display: run-in;
+  }
+  & > .figure {
+    display: block;
+    width: 200px;
+  }
+}
+
+.caption-on-bottom caption {
+  caption-side: bottom;
+}
+
+.section .table {
+  display: inline-block;
+  padding: 20px;
 }

@@ -48,6 +48,7 @@
 
 
   <section>
+    <title>Examples of features</title>
     <note class="psychology everyday-connection">
       <para>
         <title>Cell Phone Use in Our Society</title>
@@ -55,7 +56,7 @@
         <figure class="feature-figure">
           <title>Feature Figure</title>
           <media alt="A figure within a feature">
-            <image mime-type="image/jpeg" src="image1.jpg" />
+            <image mime-type="image/png" src="figure.png" />
           </media>
           <caption>The theory of classical conditioning is based on Pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced in many ways within our everyday lives.</caption>
         </figure>
@@ -70,21 +71,12 @@
         <figure class="feature-figure">
           <title>Feature Figure</title>
           <media alt="A figure within a feature">
-            <image mime-type="image/jpeg" src="image1.jpg" />
+            <image mime-type="image/png" src="figure.png" />
           </media>
           <caption>The theory of classical conditioning is based on Pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced in many ways within our everyday lives.</caption>
         </figure>
       </para>
     </note>
-    <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Even if the water in a pond or other body of water is perfectly clear (there are no suspended particles), water, on its own, absorbs light. As one descends into a deep body of water, in Figure 8.4 there will eventually be a depth which the sunlight cannot reach. While there are some abiotic and biotic factors in a terrestrial ecosystem that might obscure light (like fog, dust, or insect swarms), usually these are not permanent features of the environment.</para>
-    <para>The aquatic medium water has different physical and chemical properties than air, however. Even if the water in a pond or other body of water is perfectly clear (there are no suspended particles), water, on its own, absorbs light. As one descends into a deep body of water, in Figure 8.4 there will eventually be a depth which the sunlight cannot reach. While there are some abiotic and biotic factors in a terrestrial ecosystem that might obscure light (like fog, dust, or insect swarms), usually these are not permanent features of the environment. The aquatic medium water has different physical and chemical properties than air, however. Even if the water in a pond or other body of water is perfectly clear (there are no suspended particles), water, on its own, absorbs light. As one descends into a deep body of water, in Figure 8.4 there will eventually be a depth which the sunlight cannot reach. While there are some abiotic and biotic factors in a terrestrial ecosystem that might obscure light (like fog, dust, or insect swarms), usually these are not permanent features of the environment. The aquatic medium water has different physical and chemical properties than air, however. Even if the water in a pond or other body of water is perfectly clear (there are no suspended particles), water, on its own, absorbs light. As one descends into a deep body of water, in Figure 8.4 there will eventually be a depth which the sunlight cannot reach. While there are some abiotic and biotic factors in a terrestrial ecosystem that might obscure light (like fog, dust, or insect swarms), usually these are not permanent features of the environment.</para>
-    <figure>
-      <media alt="A figure within a section">
-        <image mime-type="image/jpeg" src="image1.jpg" />
-      </media>
-      <caption>The theory of classical conditioning is based on Pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced in many ways within our everyday lives.</caption>
-    </figure>
-    <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Even if the water in a pond or other body of water is perfectly clear (there are no suspended particles), water, on its own, absorbs light. As one descends into a deep body of water, in Figure 8.4 there will eventually be a depth which the sunlight cannot reach. While there are some abiotic and biotic factors in a terrestrial ecosystem that might obscure light (like fog, dust, or insect swarms), usually these are not permanent features of the environment.</para>
     <note class="psychology what-do-you-think">
       <para>
         <title>Medical Marijuana</title>
@@ -94,63 +86,64 @@
       <para>The link between insomnia (Chapter 7: States of Consciousness) and depression (Chapter 8: Abnormal Psychology) is well-documented by numerous studies. List 3 concepts for each topic that cross over between Chapter 7 and this chapter. The link between insomnia (Chapter 7: States of Consciousness) and depression (Chapter 8: Abnormal Psychology) is well-documented by numerous studies.</para>
       <para>List 3 concepts for each topic that cross over between Chapter 7 and this chapter. The link between insomnia (Chapter 7: States of Consciousness) and depression (Chapter 8: Abnormal Psychology) is well documented by numerous studies. List 3 concepts for each topic that cross over between Chapter 7 and this chapter.</para>
     </note>
-    <para>
-      <title>Self-Fulfilling Prophecy</title>
-      The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. Like terrestrial biomes, Figure 8.7 shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium?water?has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium?water?has different physical and chemical properties than air.
-    </para>
-
     <note class="psychology link-to-learning">
       <figure class="feature-figure figure-flow-right">
         <title>Feature Figure</title>
         <media alt="A figure within a feature">
-          <image mime-type="image/jpeg" src="image1.jpg" />
+          <image mime-type="image/png" src="figure.png" />
         </media>
       </figure>
       <para>Follow the link (http://openstaxcollege.org/psychsample) to see the interactive sample comparison. Scan the QR Code to go to the url for information on the interrelationship between insomnia and depression.</para>
     </note>
+  </section>
 
+
+
+
+
+  <section>
+    <title>Section nesting</title>
     <para>
-      <title>Flowing text around figures.</title>
-      Flowing text around notes/figures is accomplished via the .flow-left and .flow-right classes. When using these classes the figure must have a fixed width, and any text intended to flow must be long enough to extend past the figure. Examples of correct and incorrect uses follow.
+      In order for section / subsection titles to be presented properly they must be nested.
       <code display="block"> <![CDATA[
-        <note class="psychology flow-left">
-         <figure>...</figure>
-        </note>
-      ]]></code>
-      results in the right-aligned note/figure below.
+        <section>
+          <title>Section title. This will be all uppercase.</title>
+          <para>The first section paragraphs.</para>
+          <section>
+            <title>Subsection title. This will not be uppercase.</title>
+            <para>The second section paragraphs.</para>
+          </section>
+          <section>
+            <title>Subsection title. This will not be uppercase.</title>
+            <para>The third section paragraphs.</para>
+          </section>
+        </section>
+      ]]></code> 
     </para>
+  </section>
+  <section>
+    <title>Self-fulfilling Prophecy</title>
+    <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. Like terrestrial biomes, Figure 8.7 shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium?water?has different physical and chemical properties than air.</para>
+    
+    <section>
+      <title>Social Norms</title>
+      <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, Figure 8.4 shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however.</para>
+    </section>
 
-    <para>
+    <section>
+      <title>Racism</title>
+      <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, Figure 8.4 shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however.</para>
+    </section>
+
+    <section>
       <title>Sexism</title>
-      <note class="psychology flow-left">
-        <figure class="feature-figure">
-          <media alt="A figure within a feature">
-            <image mime-type="image/jpeg" src="image1.jpg" />
-          </media>
-        </figure>
-        <para>The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</para>
-      </note>
-      Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores?
-    </para>
-    <para>Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Figure 8.8 shows the females in the house cook the meals and wash the dishes? Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual. Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual.</para>
+      <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, Figure 8.4 shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however.</para>
+    </section>
+  </section>
 
-    <para>
-      The following note does not have enough text in order to properly clear the note.
-    </para>
-    <para>
-      <title>Sexism</title>
-      <note class="psychology flow-left">
-        <figure class="feature-figure">
-          <media alt="A figure within a feature">
-            <image mime-type="image/jpeg" src="image1.jpg" />
-          </media>
-        </figure>
-        <para>The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</para>
-      </note>
-      Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household.
-    </para>
 
-    <note><para><figure>
+  <section>
+    <title>Table and Figure Alignment Testing</title>
     <table>
       <tgroup cols="4">
         <tbody>
@@ -174,68 +167,224 @@
           </row>
         </tbody>
       </tgroup>
-      <caption>Table caption</caption>
-    </table></figure></para>
-    </note>
+      <caption>Table with a caption on top.</caption>
+    </table>
+    <table class="caption-on-bottom">
+      <tgroup cols="4">
+        <tbody>
+          <row>
+            <entry>a1</entry>
+            <entry>a2</entry>
+            <entry>a3</entry>
+            <entry>a4</entry>
+          </row>
+          <row>
+            <entry>b1</entry>
+            <entry>b2</entry>
+            <entry>b3</entry>
+            <entry>b4</entry>
+          </row>
+          <row>
+            <entry>c1</entry>
+            <entry>c2</entry>
+            <entry>c3</entry>
+            <entry>c4</entry>
+          </row>
+        </tbody>
+      </tgroup>
+      <caption>Table with a caption on bottom.</caption>
+    </table>
 
-    <para>
-     The following note is not fixed width.
-    </para>
-    <para>
-      <title>Sexism</title>
-      <note class="psychology flow-left-incorrect-example">
-        <figure class="feature-figure">
-          <media alt="A figure within a feature">
-            <image mime-type="image/jpeg" src="image1.jpg" />
-          </media>
-        </figure>
-        <para>The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</para>
-      </note>
-      Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores?
-    </para>
-  </section>
-
-
-  <section>
-    <title>Proper section nesting</title>
-    <para>
-      In order for section / subsection titles to be presented properly they must be nested.
-      <code display="block"> <![CDATA[
-        <section>
-          <title>Section title. This will be all uppercase.</title>
-          <para>The first section paragraphs.</para>
-          <section>
-            <title>Subsection title. This will not be uppercase.</title>
-            <para>The second section paragraphs.</para>
-          </section>
-          <section>
-            <title>Subsection title. This will not be uppercase.</title>
-            <para>The third section paragraphs.</para>
-          </section>
-        </section>
-      ]]></code> 
-    </para>
-  </section>
-
-
-  <section>
-    <title>Self-fulfilling Prophecy</title>
-    <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. Like terrestrial biomes, Figure 8.7 shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium?water?has different physical and chemical properties than air.</para>
-    
     <section>
-      <title>Social Norms</title>
-      <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, Figure 8.4 shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however.</para>
+        <title>Flowing text around figures.</title> 
+      <para>
+        Flowing text around notes/figures is accomplished via the .flow-left and .flow-right classes. When using these classes the figure must have a fixed width, and any paragraph intended to flow must use a ".clearfix".
+        <code display="block"> <![CDATA[
+         <para class="clearfix">
+           <figure class="flow-left">
+             <title>Figure title</title>
+             <media alt="An image in a figure">
+               <image mime-type="image/png" src="figure.png" />
+             </media>
+           <caption>Figure caption.</caption>
+           </figure>
+           Paragraph text to flow around the figure.
+         </para>
+        ]]></code>
+        results in the right-aligned note/figure below.
+      </para>
     </section>
 
     <section>
-      <title>Racism</title>
-      <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, Figure 8.4 shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however.</para>
+      <title>Testing ::after clearfix</title>
+      <para class="clearfix">
+          <figure class="feature-figure flow-left">
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+          <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+        Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores?
+      </para>
+    </section>
+    <section>
+      <title>Not enough text to clear.</title>
+      <para class="clearfix">
+          <figure class="feature-figure flow-left">
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+          <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+        Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household.
+      </para>
+    </section>
+    <section>
+      <title>This data still clears.</title>
+      <para>This will be below any feature from the last section.</para>
     </section>
 
     <section>
-      <title>Sexism</title>
-      <para>The Industrial-Organizational Psychology experiment involved groups of industries and organizations participating in studies of business setting experiments. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, Figure 8.4 shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however. The aquatic medium water has different physical and chemical properties than air, however. Like terrestrial biomes, shows aquatic biomes are influenced by a series of abiotic factors. The aquatic medium water has different physical and chemical properties than air, however.</para>
+      <title>Figures which have text flowing around them require fixed widths</title>
+      <para>
+       The following note is not fixed width.
+      </para>
+      <para>
+        <title>Sexism</title>
+        <note class="psychology flow-left-incorrect-example">
+          <figure class="feature-figure">
+            <media alt="A figure within a feature">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+          </figure>
+          <para>The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</para>
+        </note>
+        Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores?
+      </para>
     </section>
+
+    <section>
+      <title>Splitting figures across paragraphs</title>
+      <para class="clearfix">
+          <figure class="feature-figure flow-left">
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+            <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+        Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores?Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores? Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household.
+      </para>
+      <para class="clearfix">
+          <figure class="feature-figure flow-left">
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+            <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+        Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Figure 8.8 shows the females in the house cook the meals and wash the dishes? Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual. Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual.
+      </para>
+    </section>
+    <section>
+      <title>Multiple figures per paragraph looks strange.</title>
+      <para  class="clearfix">
+          <figure class="feature-figure flow-left">
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+          <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+          <figure class="feature-figure flow-left">
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+          <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+          <figure class="feature-figure flow-left">
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+          <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+        Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores?
+      </para>
+      <para>Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Figure 8.8 shows the females in the house cook the meals and wash the dishes? Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual. Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual.</para>
+    </section>
+
+    <section>
+      <title>This is a test of using display:table/table-cell</title>
+    </section>
+
+    <section class="has-figures">
+      <title>Splitting figures across paragraphs</title>
+      <section class="is-a-row">
+        <para>
+        Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores?Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores? Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household.
+      </para>
+          <figure>
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+            <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+      </section>
+      <section class="is-a-row">
+        <para>
+        Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Figure 8.8 shows the females in the house cook the meals and wash the dishes? Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual. Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual.
+        </para>
+          <figure>
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+            <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+      </section>
+    </section>
+    <section class="has-figures">
+      <title>Multiple figures per paragraph.</title>
+      <section class="is-a-row">
+
+      <para>
+        Sexism is prejudice toward an individual based on his or her gender. Typically sexism takes the form of men holding biases against women, but women can also show sexism toward women and men. Like racism, sexism may be subtle and difficult to detect. Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Do the females in the house cook the meals and wash the dishes? Do the males in the house take out the trash and mow the lawn? Why do you think there are differences in how men and women perform household chores?
+      </para>
+          <figure>
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+          <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+          <figure>
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+          <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+          <figure>
+            <title>Figure title</title>
+            <media alt="An image in a figure">
+              <image mime-type="image/png" src="figure.png" />
+            </media>
+          <caption>Figure caption. The theory of classical conditioning is based on pavlov's experiments and can be practiced in many ways within our everyday lives can be practiced.</caption>
+          </figure>
+      </section>
+      <section class="is-a-row">
+        <para>Common forms of sexism in modern society include gender role expectations, such as expecting women to be the caretakers of the household. Sexism also includes people?s expectations for how members of a gender group should behave. For example, women are expected to be friendly, passive, and nurturing and when women behave in an unfriendly, assertive, or neglectful manner they often are disliked for violating their gender role (Rudman, 1998). Sexism can exist on a societal level such as in hiring, employment opportunities, and education. Women are less likely to be hired or promoted in male-dominated professions such as engineering, aviation, and construction. Have you ever experienced or witnessed sexism? Think about your household chores. Figure 8.8 shows the females in the house cook the meals and wash the dishes? Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual. Although these secondary characteristics are important in forming a first impression of a stranger, the social categories of race, gender, and age provide a wealth of information about an individual.</para>
+      </section>
+    </section>
+
   </section>
+
+
+
 </content>
 </document>
