@@ -87,10 +87,10 @@
       <para>List 3 concepts for each topic that cross over between Chapter 7 and this chapter. The link between insomnia (Chapter 7: States of Consciousness) and depression (Chapter 8: Abnormal Psychology) is well documented by numerous studies. List 3 concepts for each topic that cross over between Chapter 7 and this chapter.</para>
     </note>
     <note class="psychology link-to-learning">
-      <figure class="feature-figure figure-flow-right">
+      <figure class="feature-figure">
         <title>Feature Figure</title>
-        <media alt="A figure within a feature">
-          <image mime-type="image/png" src="figure.png" />
+        <media alt="QR Code">
+          <image mime-type="image/png" src="qr-code.png" />
         </media>
       </figure>
       <para>Follow the link (http://openstaxcollege.org/psychsample) to see the interactive sample comparison. Scan the QR Code to go to the url for information on the interrelationship between insomnia and depression.</para>
@@ -200,7 +200,7 @@
       <para>
         Flowing text around notes/figures is accomplished via the .flow-left and .flow-right classes. When using these classes the figure must have a fixed width, and any paragraph intended to flow must use a ".clearfix".
         <code display="block"> <![CDATA[
-         <para class="clearfix">
+         <para>
            <figure class="flow-left">
              <title>Figure title</title>
              <media alt="An image in a figure">

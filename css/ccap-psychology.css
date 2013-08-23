@@ -1558,12 +1558,24 @@ div.book > div.appendix > div.titlepage > div > div:not(:first-child) {
   margin-top: -35px;
   padding: 5px;
 }
+.note.psychology.link-to-learning > .body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.note.psychology.link-to-learning .figure {
+  float: left;
+  width: 94px;
+}
+.note.psychology.link-to-learning .figure .title {
+  display: none;
+}
 /* Make sections easier to identify in this example document */
 .section {
   page-break-inside: avoid;
 }
 /* Float/clearfix method test */
-.section > p.clearfix::after {
+.section > p::after {
   content: "";
   display: table;
   clear: both;

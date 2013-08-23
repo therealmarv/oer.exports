@@ -19,6 +19,9 @@
 @white:         #FFF;
 @black:         #000;
 
+// fixed widths
+@qr-width:      94px;
+
 // Should these be moved to ccap-base.less?
 @page { margin: 1in 1in; }
 
@@ -108,6 +111,20 @@
     }
     &.link-to-learning {
       .x-feature-color(@red, @orange, @white, @red, "link to learning");
+
+      //clearfix
+      > .body::after {
+        content: "";
+        display: table;
+        clear: both;  
+      }
+      .figure {
+        float: left;
+        width: @qr-width;
+        .title {
+          display: none;
+        }
+      }
     }
   }
 }
@@ -118,12 +135,10 @@
 }
 
 /* Float/clearfix method test */
-.section > p.clearfix {  
-  &::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.section > p::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .section .flow-left {
